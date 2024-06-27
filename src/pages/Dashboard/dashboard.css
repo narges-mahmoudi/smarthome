@@ -1,0 +1,63 @@
+
+  .device-list-info-container{
+    /* background-color: azure; */
+    width: 80%;
+    height: 50%;
+    margin: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: aliceblue;
+    border-radius: 10px;
+    padding: 4px;
+}
+.info-card{
+    max-width: 380px;
+    width: 380px;
+    height: 60px;
+
+    padding: 8px;
+    margin-left: 16px;
+    overflow: hidden;
+}
+.device-card{
+    max-width: 200px;
+    min-width: 200px;
+    height: 200px;
+    max-height: 200px;
+    padding: 8px;
+    margin-left: 16px;
+    overflow: hidden;
+}
+.template-card{
+    max-width: 300px;
+    min-width: 300px;
+    height: 300px;
+    max-height: 300px;
+    padding: 8px;
+    margin-left: 16px;
+    overflow: hidden;
+}
+
+
+.base{
+    display: flex;
+}
+
+.section{
+    max-width: 100%;
+    padding: 16px 0;
+    margin-bottom: 8px;
+}
+.section-title{
+    padding: 0 16px 16px 16px;
+}
+.info{
+    
+}
+
+.device{
+}
+
+.template{
+
+}

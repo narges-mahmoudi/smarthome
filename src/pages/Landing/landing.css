@@ -1,0 +1,39 @@
+.landing-container{
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+.landig-navbar{
+    width: 100%;
+    height: 96px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(2, 22, 84, 1);
+}
+.navbar-item{
+    min-width: 90px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.landig-navbar :hover{
+    background-color: var(--hover);
+}
+.landing-section{
+    width: 100%;
+   height:calc(100vh - 96px) ;
+   max-height: 500px;
+   display: flex;
+   flex-direction: row;
+   background-color: var(--backgroundcolor);
+   border:1px solid
+}
+.landing-section > div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

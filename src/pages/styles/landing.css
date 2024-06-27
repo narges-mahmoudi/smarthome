@@ -1,0 +1,41 @@
+.row-1{
+background-color:rgb(238, 238, 238) ;
+text-align: start;
+}
+
+.row_base{
+    text-align: right;
+}
+.row-2{
+    /* background-color: blueviolet; */
+    height: 300px;
+    display: flex;
+    /* fle */
+}
+.row-3{
+    /* background-color: brown; */
+    height: 300px;
+
+}
+.column-1{
+    background-color: rgb(89, 165, 42);
+    width: 50%;
+}
+.column-2{
+    background-color: rgb(165, 144, 42);
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+
+}
+
+.heading{
+    /* background-color: blue; */
+    height: 90%;
+    font-size: 25px !important;
+    color: antiquewhite;
+    padding: 3%;
+    text-align: start;
+}

@@ -1,0 +1,16 @@
+.add-btn-wrapper{
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.01);
+    font-size: 36px;
+    position: absolute;
+}
+
+.add-btn-wrapper:hover{
+    background-color: #6b74a15e;
+}
